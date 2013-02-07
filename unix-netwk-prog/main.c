@@ -11,8 +11,21 @@
 int main (int argc, const char * argv[])
 {
 
-    // insert code here...
-    printf("Hello, World!\n");
+    printf ("Hello World!");
+    printf("\n");
+    int a=4;
+    int b=5;
+    int z = a+b;
+    printf("The value of z : ");
+    printf("%d",z);
+    printf("\n");
+    char label[] = "abcde";
+    int i;
+    for(i=0;i<sizeof(label);i++){
+        printf("%c",label[i]);
+        printf("\n");
+    
+    }
     return 0;
 }
 

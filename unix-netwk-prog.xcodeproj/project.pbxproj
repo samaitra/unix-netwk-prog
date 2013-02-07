@@ -9,6 +9,33 @@
 /* Begin PBXBuildFile section */
 		117514B416C2D32300CBD832 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 117514B316C2D32200CBD832 /* main.c */; };
 		117514B616C2D32300CBD832 /* unix_netwk_prog.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 117514B516C2D32300CBD832 /* unix_netwk_prog.1 */; };
+		11CE896516C4050400530900 /* clientshutdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE894A16C4050400530900 /* clientshutdown.c */; };
+		11CE896616C4050400530900 /* clientTCP.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE894B16C4050400530900 /* clientTCP.c */; };
+		11CE896716C4050400530900 /* cmd2Example.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE894C16C4050400530900 /* cmd2Example.c */; };
+		11CE896816C4050400530900 /* cmd3Example.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE894D16C4050400530900 /* cmd3Example.c */; };
+		11CE896916C4050400530900 /* e2.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE894E16C4050400530900 /* e2.c */; };
+		11CE896A16C4050400530900 /* exe_example0.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE894F16C4050400530900 /* exe_example0.c */; };
+		11CE896B16C4050400530900 /* exe_example1.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895016C4050400530900 /* exe_example1.c */; };
+		11CE896C16C4050400530900 /* fiforeceive.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895116C4050400530900 /* fiforeceive.c */; };
+		11CE896D16C4050400530900 /* fifosend.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895216C4050400530900 /* fifosend.c */; };
+		11CE896E16C4050400530900 /* fork0.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895316C4050400530900 /* fork0.c */; };
+		11CE896F16C4050400530900 /* fork00.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895416C4050400530900 /* fork00.c */; };
+		11CE897016C4050400530900 /* fork1.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895516C4050400530900 /* fork1.c */; };
+		11CE897116C4050400530900 /* fork2.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895616C4050400530900 /* fork2.c */; };
+		11CE897216C4050400530900 /* fork3.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895716C4050400530900 /* fork3.c */; };
+		11CE897316C4050400530900 /* longjmpExample01.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895816C4050400530900 /* longjmpExample01.c */; };
+		11CE897416C4050400530900 /* longjmpExample02.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895916C4050400530900 /* longjmpExample02.c */; };
+		11CE897516C4050400530900 /* manysignals.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895A16C4050400530900 /* manysignals.c */; };
+		11CE897616C4050400530900 /* MsgQreader.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895B16C4050400530900 /* MsgQreader.c */; };
+		11CE897716C4050400530900 /* MsgQwriter.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895C16C4050400530900 /* MsgQwriter.c */; };
+		11CE897816C4050400530900 /* pipeExample01.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895D16C4050400530900 /* pipeExample01.c */; };
+		11CE897916C4050400530900 /* pipeexample02.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895E16C4050400530900 /* pipeexample02.c */; };
+		11CE897A16C4050400530900 /* selectclient.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE895F16C4050400530900 /* selectclient.c */; };
+		11CE897B16C4050400530900 /* serverConcurrent.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE896116C4050400530900 /* serverConcurrent.c */; };
+		11CE897C16C4050400530900 /* serverTCP_iterative.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE896216C4050400530900 /* serverTCP_iterative.c */; };
+		11CE897D16C4050400530900 /* signalExample.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE896316C4050400530900 /* signalExample.c */; };
+		11CE897E16C4050400530900 /* twopipesExample03.c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE896416C4050400530900 /* twopipesExample03.c */; };
+		11CE898116C4054D00530900 /* selectserver (1).c in Sources */ = {isa = PBXBuildFile; fileRef = 11CE898016C4054D00530900 /* selectserver (1).c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +55,33 @@
 		117514AF16C2D32200CBD832 /* unix-netwk-prog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "unix-netwk-prog"; sourceTree = BUILT_PRODUCTS_DIR; };
 		117514B316C2D32200CBD832 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		117514B516C2D32300CBD832 /* unix_netwk_prog.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = unix_netwk_prog.1; sourceTree = "<group>"; };
+		11CE894A16C4050400530900 /* clientshutdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clientshutdown.c; sourceTree = "<group>"; };
+		11CE894B16C4050400530900 /* clientTCP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = clientTCP.c; sourceTree = "<group>"; };
+		11CE894C16C4050400530900 /* cmd2Example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmd2Example.c; sourceTree = "<group>"; };
+		11CE894D16C4050400530900 /* cmd3Example.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmd3Example.c; sourceTree = "<group>"; };
+		11CE894E16C4050400530900 /* e2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = e2.c; sourceTree = "<group>"; };
+		11CE894F16C4050400530900 /* exe_example0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exe_example0.c; sourceTree = "<group>"; };
+		11CE895016C4050400530900 /* exe_example1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = exe_example1.c; sourceTree = "<group>"; };
+		11CE895116C4050400530900 /* fiforeceive.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fiforeceive.c; sourceTree = "<group>"; };
+		11CE895216C4050400530900 /* fifosend.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fifosend.c; sourceTree = "<group>"; };
+		11CE895316C4050400530900 /* fork0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fork0.c; sourceTree = "<group>"; };
+		11CE895416C4050400530900 /* fork00.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fork00.c; sourceTree = "<group>"; };
+		11CE895516C4050400530900 /* fork1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fork1.c; sourceTree = "<group>"; };
+		11CE895616C4050400530900 /* fork2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fork2.c; sourceTree = "<group>"; };
+		11CE895716C4050400530900 /* fork3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fork3.c; sourceTree = "<group>"; };
+		11CE895816C4050400530900 /* longjmpExample01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = longjmpExample01.c; sourceTree = "<group>"; };
+		11CE895916C4050400530900 /* longjmpExample02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = longjmpExample02.c; sourceTree = "<group>"; };
+		11CE895A16C4050400530900 /* manysignals.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = manysignals.c; sourceTree = "<group>"; };
+		11CE895B16C4050400530900 /* MsgQreader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MsgQreader.c; sourceTree = "<group>"; };
+		11CE895C16C4050400530900 /* MsgQwriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MsgQwriter.c; sourceTree = "<group>"; };
+		11CE895D16C4050400530900 /* pipeExample01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pipeExample01.c; sourceTree = "<group>"; };
+		11CE895E16C4050400530900 /* pipeexample02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pipeexample02.c; sourceTree = "<group>"; };
+		11CE895F16C4050400530900 /* selectclient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = selectclient.c; sourceTree = "<group>"; };
+		11CE896116C4050400530900 /* serverConcurrent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = serverConcurrent.c; sourceTree = "<group>"; };
+		11CE896216C4050400530900 /* serverTCP_iterative.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = serverTCP_iterative.c; sourceTree = "<group>"; };
+		11CE896316C4050400530900 /* signalExample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = signalExample.c; sourceTree = "<group>"; };
+		11CE896416C4050400530900 /* twopipesExample03.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = twopipesExample03.c; sourceTree = "<group>"; };
+		11CE898016C4054D00530900 /* selectserver (1).c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "selectserver (1).c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +114,33 @@
 		117514B216C2D32200CBD832 /* unix-netwk-prog */ = {
 			isa = PBXGroup;
 			children = (
+				11CE898016C4054D00530900 /* selectserver (1).c */,
+				11CE894A16C4050400530900 /* clientshutdown.c */,
+				11CE894B16C4050400530900 /* clientTCP.c */,
+				11CE894C16C4050400530900 /* cmd2Example.c */,
+				11CE894D16C4050400530900 /* cmd3Example.c */,
+				11CE894E16C4050400530900 /* e2.c */,
+				11CE894F16C4050400530900 /* exe_example0.c */,
+				11CE895016C4050400530900 /* exe_example1.c */,
+				11CE895116C4050400530900 /* fiforeceive.c */,
+				11CE895216C4050400530900 /* fifosend.c */,
+				11CE895316C4050400530900 /* fork0.c */,
+				11CE895416C4050400530900 /* fork00.c */,
+				11CE895516C4050400530900 /* fork1.c */,
+				11CE895616C4050400530900 /* fork2.c */,
+				11CE895716C4050400530900 /* fork3.c */,
+				11CE895816C4050400530900 /* longjmpExample01.c */,
+				11CE895916C4050400530900 /* longjmpExample02.c */,
+				11CE895A16C4050400530900 /* manysignals.c */,
+				11CE895B16C4050400530900 /* MsgQreader.c */,
+				11CE895C16C4050400530900 /* MsgQwriter.c */,
+				11CE895D16C4050400530900 /* pipeExample01.c */,
+				11CE895E16C4050400530900 /* pipeexample02.c */,
+				11CE895F16C4050400530900 /* selectclient.c */,
+				11CE896116C4050400530900 /* serverConcurrent.c */,
+				11CE896216C4050400530900 /* serverTCP_iterative.c */,
+				11CE896316C4050400530900 /* signalExample.c */,
+				11CE896416C4050400530900 /* twopipesExample03.c */,
 				117514B316C2D32200CBD832 /* main.c */,
 				117514B516C2D32300CBD832 /* unix_netwk_prog.1 */,
 			);
@@ -117,6 +198,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				117514B416C2D32300CBD832 /* main.c in Sources */,
+				11CE896516C4050400530900 /* clientshutdown.c in Sources */,
+				11CE896616C4050400530900 /* clientTCP.c in Sources */,
+				11CE896716C4050400530900 /* cmd2Example.c in Sources */,
+				11CE896816C4050400530900 /* cmd3Example.c in Sources */,
+				11CE896916C4050400530900 /* e2.c in Sources */,
+				11CE896A16C4050400530900 /* exe_example0.c in Sources */,
+				11CE896B16C4050400530900 /* exe_example1.c in Sources */,
+				11CE896C16C4050400530900 /* fiforeceive.c in Sources */,
+				11CE896D16C4050400530900 /* fifosend.c in Sources */,
+				11CE896E16C4050400530900 /* fork0.c in Sources */,
+				11CE896F16C4050400530900 /* fork00.c in Sources */,
+				11CE897016C4050400530900 /* fork1.c in Sources */,
+				11CE897116C4050400530900 /* fork2.c in Sources */,
+				11CE897216C4050400530900 /* fork3.c in Sources */,
+				11CE897316C4050400530900 /* longjmpExample01.c in Sources */,
+				11CE897416C4050400530900 /* longjmpExample02.c in Sources */,
+				11CE897516C4050400530900 /* manysignals.c in Sources */,
+				11CE897616C4050400530900 /* MsgQreader.c in Sources */,
+				11CE897716C4050400530900 /* MsgQwriter.c in Sources */,
+				11CE897816C4050400530900 /* pipeExample01.c in Sources */,
+				11CE897916C4050400530900 /* pipeexample02.c in Sources */,
+				11CE897A16C4050400530900 /* selectclient.c in Sources */,
+				11CE897B16C4050400530900 /* serverConcurrent.c in Sources */,
+				11CE897C16C4050400530900 /* serverTCP_iterative.c in Sources */,
+				11CE897D16C4050400530900 /* signalExample.c in Sources */,
+				11CE897E16C4050400530900 /* twopipesExample03.c in Sources */,
+				11CE898116C4054D00530900 /* selectserver (1).c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +311,7 @@
 				117514BB16C2D32300CBD832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
