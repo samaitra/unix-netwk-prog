@@ -1,14 +1,14 @@
 //Concurrent Server program using TCP socket
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 #include <sys/types.h> 
 #include <sys/socket.h>
 #include <netinet/in.h>
-#include<unistd.h>
-#include<stdlib.h>
-#include<signal.h>
-#include<sys/wait.h>
-#include<netinet/tcp.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <signal.h>
+#include <sys/wait.h>
+#include <netinet/tcp.h>
 #define SO_REUSEPORT atoi(argv[1])
 char* Lower2Upper(char*);
 void sig_chld(int );
