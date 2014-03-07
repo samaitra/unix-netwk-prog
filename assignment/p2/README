@@ -1,8 +1,8 @@
-To start server.
+1. To start server.
 
 $./server 4444 10 10 10 10 10
 
-To start the client.
+2. To start the client.
 $ cd ../p3
 $ ./client 127.0.0.1 4444
 

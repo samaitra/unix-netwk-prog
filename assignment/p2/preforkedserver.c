@@ -1,4 +1,10 @@
-//Concurrent Server program using TCP socket
+//
+//  preforkedserver.c
+//
+//
+//  Created by Saikat Maitra on 04/03/14.
+//
+//
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>

@@ -1,0 +1,13 @@
+1. To start server.
+
+$./server 4444
+
+2. To start the client.
+
+$ ./client 127.0.0.1 4444
+
+Query: London N text
+
+$ ./client 127.0.0.1 4444
+
+Query: London Y
