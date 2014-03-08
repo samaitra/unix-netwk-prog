@@ -1,0 +1,16 @@
+$ ./shell
+Enter command:
+ls;ps
+Enter execution style, valid types are sequential(s) or parallel(p):
+s
+Executing command ls
+Makefile shell    shell.c
+PID of terminated Child:23011
+Executing command ps
+  PID TTY           TIME CMD
+22827 ttys000    0:00.20 -bash
+22977 ttys000    0:00.01 ./shell
+23003 ttys000    0:00.01 ./shell
+23010 ttys000    0:00.01 ./shell
+PID of terminated Child:23012
+Enter command:
