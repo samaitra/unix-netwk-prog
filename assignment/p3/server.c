@@ -82,6 +82,7 @@ void str_echo(void *arg) {
 
 		char type[32];
 		char *filename[32];
+		char *fi[32];
 		char *query[32];
 
 		strcpy(query, strtok(buff , " \t"));
@@ -89,7 +90,9 @@ void str_echo(void *arg) {
 
 		if(type[0]=='N'){
 			strcpy(filename , strtok(NULL, " \t"));
-		}
+
+			strncpy(fi, filename, (strlen(filename)-1));
+			}
 
 		printf("query %s\n",query);
 		printf("type %s\n",type);
@@ -107,7 +110,7 @@ void str_echo(void *arg) {
 			        if (pid==0) {
 			            dup2(fd[1],1);
 			            close(fd[0]);
-			            char *argv[] = { "grep", query, "text", NULL};
+			            char *argv[] = { "grep", query, fi, NULL};
 			            if(execvp("grep", argv)<0){
 			            perror("execvp");
 			            }
